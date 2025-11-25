@@ -13,7 +13,7 @@ from telegram.ext import (
 
 # توکن‌ها رو اینجا بذار یا از محیط (توصیه می‌شه)
 TELEGRAM_BOT_TOKEN = "8153352792:AAG-62yVYD3jdEQDmZ-EyoOXLUWBAWEvgmk"
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 
 # مدل دلخواه در OpenRouter (اینجا چندتا از بهترین‌های رایگان/ارزان رو گذاشتم)
 OPENROUTER_MODEL = "mistralai/mistral-7b-instruct:free"   # رایگان و سریع
