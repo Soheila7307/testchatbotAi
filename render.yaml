@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: testchatbotAi
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: python chatbot.py
+    envVars:
+      TELEGRAM_BOT_TOKEN:
+        value: 8153352792:AAG-62yVYD3jdEQDmZ-EyoOXLUWBAWEvgmk   # ← توکن واقعی باتت رو اینجا بذار
+      OPENROUTER_API_KEY:
+        value: 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   # ← کلید OpenRouter رو اینجا بذار
